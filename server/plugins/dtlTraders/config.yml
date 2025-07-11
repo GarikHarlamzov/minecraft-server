@@ -1,0 +1,48 @@
+# dtlTraders Configuration
+# Advanced trading system for Spigot servers
+
+# Debug mode - enables additional logging
+debug: false
+
+# Trading settings
+max-trades-per-player: 10
+trade-cooldown: 30
+
+# Economy settings
+economy:
+  enabled: true
+  # Economy plugin to use (vault, etc.)
+  provider: vault
+
+# Messages
+messages:
+  prefix: '&8[&6Traders&8]'
+  no-permission: '&cYou don''t have permission to use this command!'
+  trade-success: '&aTrade completed successfully!'
+  trade-failed: '&cTrade failed!'
+  player-not-found: '&cPlayer not found!'
+  trade-created: '&aTrade created successfully!'
+  trade-cancelled: '&aTrade cancelled successfully!'
+  trade-expired: '&cYour trade offer has expired and items have been returned.'
+  insufficient-items: '&cYou don''t have enough items to create this trade!'
+  insufficient-space: '&cYou don''t have enough inventory space!'
+  on-cooldown: '&cYou must wait before creating another trade!'
+
+# GUI settings
+gui:
+  title: '&8[&6Traders&8] &7Market'
+  size: 54
+  items-per-page: 45
+
+# Trade expiration settings
+trade-expiration:
+  enabled: true
+  default-hours: 24
+  max-hours: 168 # 1 week
+
+# Statistics settings
+statistics:
+  enabled: true
+  track-completed-trades: true
+  track-cancelled-trades: true
+  track-expired-trades: true

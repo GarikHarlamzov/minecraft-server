@@ -1,0 +1,21 @@
+topkill:
+  scale: 1.0
+  color: WHITE
+  brightness: 1.0
+  fontSize: 12
+  visible: true
+  location: world,426.50261666614875,65.13066241664943,165.44427292386038,-0.12426758,89.665825
+topmoney:
+  scale: 1.0
+  color: WHITE
+  brightness: 1.0
+  fontSize: 12
+  visible: true
+  location: world,429.3144999106709,64.80094701667942,162.48985445284262,83.905396,81.859024
+topdeath:
+  scale: 1.0
+  color: WHITE
+  brightness: 1.0
+  fontSize: 12
+  visible: true
+  location: world,426.50025375821394,64.80094701667942,159.405370552013,1.935669,88.46529
