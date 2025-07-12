@@ -13,5 +13,3 @@ services:
       - ~/data/world_nether:/app/world_nether
       - ~/data/world_the_end:/app/world_the_end
     restart: unless-stopped
-    tty: true
-    stdin_open: true

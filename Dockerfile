@@ -9,4 +9,4 @@ copy server/ .
 expose 4999
 
 # запускаем сервер с указанием папки мира
-cmd ["java", "-xmx1024m", "-xms1024m", "-jar", "paper-1.20.1-196.jar", "nogui"] 
+CMD ["java", "-Xmx1024m", "-Xms1024m", "-jar", "paper-1.20.1-196.jar", "nogui"]
