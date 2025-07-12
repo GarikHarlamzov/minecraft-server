@@ -1,0 +1,17 @@
+location: world:417,567:66,000:163,503
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: Нажми на кнопку под надписью
+    height: 0.3
+  - content: Ищи такие же кнопки по всей карте (кроме домов)
+    height: 0.3
+  - content: получай оружие и продавай его скупщику зарабатывай деньги и получай оружие/броню
+      лучше!
+    height: 0.3
+  actions: {}

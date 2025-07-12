@@ -1,0 +1,12 @@
+location: world:423,310:65,700:162,501
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: Ищи кнопки с ресурсами и получай контроль над сервером!
+    height: 0.3
+  actions: {}
