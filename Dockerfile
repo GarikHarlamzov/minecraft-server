@@ -1,12 +1,12 @@
-FROM eclipse-temurin:21-jdk
+from eclipse-temurin:21-jdk
 
-WORKDIR /app
+workdir /app
 
-# Копируем все файлы сервера внутрь контейнера
-COPY server/ .
+# копируем все файлы сервера внутрь контейнера
+copy server/ .
 
-# Открываем стандартный порт Minecraft
-EXPOSE 4999
+# открываем стандартный порт minecraft
+expose 4999
 
-# Запускаем сервер с указанием папки мира
-CMD ["java", "-Xmx1024M", "-Xms1024M", "-jar", "paper-1.20.1-196.jar", "nogui"] 
+# запускаем сервер с указанием папки мира
+cmd ["java", "-xmx1024m", "-xms1024m", "-jar", "paper-1.20.1-196.jar", "nogui"] 

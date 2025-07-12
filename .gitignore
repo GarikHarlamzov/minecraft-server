@@ -1,2 +1,97 @@
+# ======================
+# Minecraft Runtime Data
+# ======================
+
+# World data (can be large and unstable)
+server/world/
+server/world_nether/
+server/world_the_end/
+server/*_nether/
+server/*_the_end/
+server/*_the_overworld/
+
+# Dynamic player/session/runtime files
+server/ops.json
+server/whitelist.json
+server/banned-players.json
+server/banned-ips.json
+server/usercache.json
+server/webcache/
+server/session.lock
+server/*.lock
+server/*.tmp
+
+# Minecraft level data
+server/*.dat
+server/*.dat_old
+
+# Region files (binary, large, unstable)
+server/**/*.mca
+
+# ===================
+# Plugin-generated files
+# ===================
+server/plugins/**/userdata/
+server/plugins/**/data/
+server/plugins/**/logs/
+server/plugins/**/cache/
+server/plugins/**/backups/
+server/plugins/**/temp/
+server/plugins/**/tmp/
+
+# Example: EssentialsX user data
+server/plugins/Essentials/userdata/
+
+# ===================
+# Logs and crash reports
+# ===================
+server/logs/
+server/crash-reports/
+server/debug/
+*.log
+*.log.gz
+
+# ================
+# IDE/editor config
+# ================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ============
+# System files
+# ============
 .DS_Store
-server/world
+Thumbs.db
+
+# ============
+# Docker data
+# ============
+*.pid
+*.sock
+*.tar
+*.gz
+*.bak
+
+# If using docker volumes in repo
+volume/
+volumes/
+data/
+server/data/
+
+# ============
+# Python/venv
+# ============
+__pycache__/
+*.pyc
+.env
+venv/
+.envrc
+
+# ===============
+# Git backups (optional)
+# ===============
+*.orig
+*.rej

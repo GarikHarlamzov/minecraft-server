@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  minecraft:
+    build:
+      context: .
+    container_name: minecraft-server
+    image: mydockerproject-minecraft:latest
+    ports:
+      - "4999:4999"
+    volumes:
+      - ~/data/world:/app/world
+      - ~/data/world_nether:/app/world_nether
+      - ~/data/world_the_end:/app/world_the_end
+    restart: unless-stopped
+    tty: true
+    stdin_open: true
