@@ -10,7 +10,7 @@ services:
       - "4999:4999"
     volumes:
       - /home/zakha/data/world:/app/world
-      - /home/zakha/minecraft-server/plugins:/app/plugins
+      - /home/zakha/minecraft-server/server/plugins:/app/plugins
       - /home/zakha/data/world_nether:/app/world_nether
       - /home/zakha/data/world_the_end:/app/world_the_end
     restart: unless-stopped
