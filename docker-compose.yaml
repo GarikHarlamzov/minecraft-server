@@ -9,7 +9,7 @@ services:
     ports:
       - "4999:4999"
     volumes:
-      - ~/data/world:/app/world
-      - ~/data/world_nether:/app/world_nether
-      - ~/data/world_the_end:/app/world_the_end
+      - /home/zakha/data/world:/app/world
+      - /home/zakha/world_nether:/app/world_nether
+      - /home/zakha/data/world_the_end:/app/world_the_end
     restart: unless-stopped
