@@ -31,16 +31,8 @@ server/**/*.mca
 # ===================
 # Plugin-generated files
 # ===================
-server/plugins/**/userdata/
-server/plugins/**/data/
-server/plugins/**/logs/
-server/plugins/**/cache/
-server/plugins/**/backups/
-server/plugins/**/temp/
-server/plugins/**/tmp/
-
-# Example: EssentialsX user data
-server/plugins/Essentials/userdata/
+server/plugins/*
+!server/plugins/*.jar
 
 # ===================
 # Logs and crash reports
