@@ -31,8 +31,8 @@ server/**/*.mca
 # ===================
 # Plugin-generated files
 # ===================
-# server/plugins/**
-# !server/plugins/**.jar
+server/plugins/**
+!server/plugins/**.jar
 
 # ===================
 # Logs and crash reports
