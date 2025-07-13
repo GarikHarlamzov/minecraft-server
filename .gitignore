@@ -1,0 +1,22 @@
+# Игнорировать всё по умолчанию
+*
+
+# Оставить эти файлы в корне
+!.gitignore
+!docker-compose.yaml
+!Dockerfile
+!Makefile
+
+# Оставить всю папку .github и её содержимое
+!.github/
+!.github/**
+
+# Оставить папку server и plugins
+!server/
+!server/plugins/
+
+# Игнорировать всё в plugins
+server/plugins/*
+
+# Разрешить .jar файлы в plugins и подпапках
+!server/plugins/**/*.jar

@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  minecraft:
+    build:
+      context: .
+    container_name: minecraft-server
+    image: mydockerproject-minecraft:latest
+    ports:
+      - "4999:4999"
+    volumes:
+      - /home/zakha/minecraft-server/server:/app
+    restart: unless-stopped
