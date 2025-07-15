@@ -11,3 +11,5 @@ services:
     volumes:
       - /home/zakha/minecraft-server/server:/app
     restart: unless-stopped
+    stdin_open: true
+    tty: true
